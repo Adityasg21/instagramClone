@@ -83,6 +83,8 @@ public class login_Activity extends AppCompatActivity implements View.OnClickLis
                     }
 
             case R.id.btnSignUpLoginActivity:
+                Intent intent=new Intent(login_Activity.this,signUpActivity.class);
+                startActivity(intent);
                 break;
         }
 
@@ -101,6 +103,7 @@ public class login_Activity extends AppCompatActivity implements View.OnClickLis
 
         Intent intent=new Intent(login_Activity.this,SocialMedia_activity.class);
         startActivity(intent);
+        finish();
 
     }
 

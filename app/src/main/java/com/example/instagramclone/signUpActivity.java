@@ -131,6 +131,7 @@ public class signUpActivity extends AppCompatActivity implements View.OnClickLis
 
      Intent intent=new Intent(signUpActivity.this,SocialMedia_activity.class);
      startActivity(intent);
+     finish();
 
     }
 }

@@ -121,10 +121,11 @@ public class ProfileTab extends Fragment {
                                     e.getMessage(),
                                     FancyToast.LENGTH_LONG, FancyToast.ERROR, true).show();
                         }
+                        progressDialog.dismiss();
                     }
                 });
 
-                progressDialog.dismiss();
+
             }
         });
 
