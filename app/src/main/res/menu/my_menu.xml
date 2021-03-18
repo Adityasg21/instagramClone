@@ -10,5 +10,10 @@
         android:orderInCategory="100"
         android:title="logout"
         app:showAsAction="never"/>
+    <item android:title="send Tweet"
+        android:id="@+id/send"
+        app:showAsAction="always"
+        android:icon="@drawable/send"
+        android:orderInCategory="100"/>
 
 </menu>

@@ -79,6 +79,9 @@ public class SocialMedia_activity extends AppCompatActivity {
             finish();
             Intent intent =new Intent(SocialMedia_activity.this,signUpActivity.class);
             startActivity(intent);
+        }else if( item.getItemId()==R.id.send){
+        Intent intent=new Intent(SocialMedia_activity.this,sendTweetAcitvity.class);
+        startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
